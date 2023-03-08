@@ -10,3 +10,8 @@ b = n % 10
 a = n // 10
 
 print(a + b + c)
+
+# или
+
+n = int(input())
+print(n//100 + n//10%10 + n%10)
